@@ -17,5 +17,31 @@ public class Gittest {
     public static void main(String[] args) {
         // TODO code application logic here
     }
+
+    public Gittest() {
+    }
+    
+    private String student;
+
+    /**
+     * Get the value of string
+     *
+     * @return the value of string
+     */
+    public String getString() {
+        return student;
+    }
+
+    /**
+     * Set the value of string
+     *
+     * @param string new value of string
+     */
+    public void setString(String string) {
+        this.student = string;
+    }
+
+    
     
 }
+
